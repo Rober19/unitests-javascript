@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:mocha": "nodemon test/mocha.test.js --exec mocha",
-    "test:ava": "nodemon test/ava.test.js --exec ava",
-    "test:jest": "nodemon test/jest.test.js --exec jest"
+    "test": "nodemon test/mocha.test.js --exec mocha"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@date/today": "^0.1.0",
+    "calendar-months": "^1.0.1",
+    "moment": "^2.22.2"
+  },
   "devDependencies": {
-    "ava": "^0.25.0",
     "chai": "^4.1.2",
-    "jest": "^23.1.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.17.5"
   }
